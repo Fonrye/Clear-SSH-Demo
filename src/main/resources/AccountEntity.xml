@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.fon.entity.AccountEntity">
+        <table name="account" schema="fon" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="account">
+                <column name="account"/>
+            </basic>
+            <basic name="name">
+                <column name="name"/>
+            </basic>
+            <basic name="password">
+                <column name="password"/>
+            </basic>
+            <basic name="email">
+                <column name="email"/>
+            </basic>
+            <basic name="phone">
+                <column name="phone"/>
+            </basic>
+            <basic name="createUserId">
+                <column name="create_user_id"/>
+            </basic>
+            <basic name="createTime">
+                <column name="create_time"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
